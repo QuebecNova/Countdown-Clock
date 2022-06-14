@@ -11,7 +11,7 @@ export default function CreatedTimers({setPage}) {
     const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS
 
   return (
-    <Page title='Add your own countdown clock!'
+    <Page title='Your clocks is here!'
             primaryAction={
                     <Button secondary onClick={() => setPage('empty')}>Back</Button>
                 }
